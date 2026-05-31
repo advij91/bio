@@ -1,0 +1,276 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Ashutosh Vijay</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f9;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            border-radius: 8px 8px 0 0;
+        }
+        .header-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #ecf0f1;
+            margin-right: 30px;
+        }
+        .header-text h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header-text p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+            color: #bdc3c7;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .sidebar {
+            border-right: 1px solid #eee;
+            padding-right: 20px;
+        }
+        section {
+            margin-bottom: 25px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+            font-size: 1.1em;
+        }
+        .contact-info p, .skills-list, .lang-list {
+            font-size: 0.9em;
+            margin: 5px 0;
+        }
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .skill-tag {
+            background: #ecf0f1;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+        }
+        .experience-item {
+            margin-bottom: 20px;
+        }
+        .exp-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: #2980b9;
+        }
+        .job-title {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+        }
+        .project-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 0.9em;
+        }
+        .project-table th, .project-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .project-table th {
+            background-color: #f8f9fa;
+            width: 30%;
+        }
+        .summary {
+            font-size: 0.95em;
+            color: #444;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="https://via.placeholder.com/120" alt="Ashutosh Vijay" class="header-img">
+        <div class="header-text">
+            <h1>Ashutosh Vijay</h1>
+            <p>AVP, HSBC</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <section class="contact-info">
+                <h2>Contact</h2>
+                [span_0](start_span)<p><strong>Phone:</strong> +91 9057561735[span_0](end_span)</p>
+                [span_1](start_span)<p><strong>Email:</strong> vijay.ashutosh13@gmail.com[span_1](end_span)</p>
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                [span_2](start_span)<p><strong>2016-2017</strong><br>PGPM/MBA (Finance)<br>Great Lakes Institute of Management, Chennai[span_2](end_span)</p>
+                <p><strong>2009-2013</strong><br>B. [span_3](start_span)Tech.<br>University College of Engineering, Kota[span_3](end_span)</p>
+            </section>
+
+            <section>
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    <span class="skill-tag">Product Ownership</span>
+                    <span class="skill-tag">Business Analysis</span>
+                    <span class="skill-tag">UI/UX</span>
+                    <span class="skill-tag">Visualization</span>
+                    <span class="skill-tag">Agile</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">ETL</span>
+                    <span class="skill-tag">SQL</span>
+                    [span_4](start_span)<span class="skill-tag">API</span>[span_4](end_span)
+                </div>
+            </section>
+
+            <section>
+                <h2>Language</h2>
+                [span_5](start_span)<p class="lang-list">English, Hindi[span_5](end_span)</p>
+            </section>
+        </div>
+
+        <div class="main-content">
+            <section>
+                <h2>Professional Summary</h2>
+                <p class="summary">
+                    [span_6](start_span)Results-driven professional with over 11 years of experience in financial and technological fields[span_6](end_span). 
+                    [span_7](start_span)Expertise in process engineering, data quality frameworks, and reconciliations[span_7](end_span). 
+                    [span_8](start_span)Experienced in designing intuitive UI, ISO20022 compliant APIs, and rule engines for liquidity products[span_8](end_span). 
+                    [span_9](start_span)Has served as Product Owner, POD Lead, Business Analyst, and Software Engineer[span_9](end_span).
+                </p>
+            </section>
+
+            <section>
+                <h2>Experience</h2>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span>HSBC</span>
+                        <span>Sep 2022 - Present</span>
+                    </div>
+                    <div class="job-title">Associate Vice President</div>
+                    <ul>
+                        [span_10](start_span)<li>Enhanced data sourcing processes with a benefit of 19 FTE and addressed audit findings[span_10](end_span).</li>
+                        [span_11](start_span)<li>Identified and removed systematic breaks, providing 3 FTE benefits[span_11](end_span).</li>
+                        [span_12](start_span)<li>Migrated over 300 controls to a single generic control framework in under a year[span_12](end_span).</li>
+                        [span_13](start_span)<li>Managed product roadmaps and stakeholder prioritization sessions[span_13](end_span).</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span>Sionic Advisor India Private Limited</span>
+                        <span>Jun 2021 - Aug 2022</span>
+                    </div>
+                    <div class="job-title">Senior Consultant</div>
+                    <ul>
+                        [span_14](start_span)<li>Developed generic control frameworks for faster regulatory change onboarding[span_14](end_span).</li>
+                        [span_15](start_span)<li>Standardized change management processes and implemented best practices[span_15](end_span).</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span>BNY Mellon Technologies</span>
+                        <span>May 2017 - May 2021</span>
+                    </div>
+                    <div class="job-title">Tech Lead Business Analyst</div>
+                    <ul>
+                        [span_16](start_span)<li>Managed business analysis for shared services data and external API services[span_16](end_span).</li>
+                        [span_17](start_span)<li>Designed ISO 20022 compliant API responses and redesigned UX for cash/custody widgets[span_17](end_span).</li>
+                        [span_18](start_span)<li>Created BA process templates for Agile and Waterfall techniques[span_18](end_span).</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <span>Accenture Services Private Limited</span>
+                        <span>Dec 2013 - Apr 2016</span>
+                    </div>
+                    <div class="job-title">Software Engineer Analyst</div>
+                    <ul>
+                        [span_19](start_span)<li>Handled position reconciliation and end-of-day processing for trade solutions[span_19](end_span).</li>
+                        [span_20](start_span)<li>Created FSDs and FRDs for system enhancements[span_20](end_span).</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Key Projects</h2>
+                
+                <table class="project-table">
+                    <tr>
+                        <th>Project</th>
+                        [span_21](start_span)<td><strong>Generic Control Frameworks for Regulatory Reporting</strong>[span_21](end_span)</td>
+                    </tr>
+                    <tr>
+                        <th>Details</th>
+                        <td>Strategic project to improve operational efficiency for Data Quality Control. [span_22](start_span)Enables faster turnaround for regulatory changes[span_22](end_span).</td>
+                    </tr>
+                    <tr>
+                        <th>Responsibilities</th>
+                        [span_23](start_span)<td>Designed frameworks using Data3Sixty and Python (Pandas/Numpy) for performance optimization[span_23](end_span).</td>
+                    </tr>
+                    <tr>
+                        <th>Tools</th>
+                        [span_24](start_span)<td>Data3Sixty, Python, MS Office, JIRA[span_24](end_span)</td>
+                    </tr>
+                </table>
+
+                <table class="project-table">
+                    <tr>
+                        <th>Project</th>
+                        [span_25](start_span)<td><strong>Nexen Data Services</strong>[span_25](end_span)</td>
+                    </tr>
+                    <tr>
+                        <th>Details</th>
+                        [span_26](start_span)<td>One-stop solution for enterprise-wide client data requirements using APIs[span_26](end_span).</td>
+                    </tr>
+                    <tr>
+                        <th>Responsibilities</th>
+                        [span_27](start_span)<td>Designed PSD2 compliant cash API requests/responses; used Postman for testing and Python for parsing responses[span_27](end_span).</td>
+                    </tr>
+                    <tr>
+                        <th>Tools</th>
+                        [span_28](start_span)<td>SQL, Oracle, Postman, Python, SWIFT Standards Editor[span_28](end_span)</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
+
+```
